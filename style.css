@@ -1,5 +1,4 @@
-* { 
-  zera 
+* {   /* zera config */
   margin: 0;
   padding: 0;
 }
@@ -11,7 +10,7 @@ body {  /* config principal - font,fundo e margem  */
 }
 
 #container {
-  background: #ede9cc;
+  background: #ede9cc url(/imagens/bg-container.png) top center repeat-y;
   margin: 0 auto;  /* centralizar objeto  */
 
   /* estabelece o tamanho maximo e minimo  */
@@ -106,16 +105,43 @@ ul#navegacao {
 }
 
 ul#navegacao a {
-  text-transform: uppercase;
-  font-size: 0.8em;
+  text-transform: uppercase;   /* trasformar letras em Maiuculas */
+  font-size: 0.8em;  /* tamanho da letra */
   padding: 5px;
   color: #6e672c;
   line-height: 30px;
   text-decoration: none;
 }
 
+ul#navegacao a:hover {
+  background: #fdf6be;
+}
+
 .depoimento {
   width: 226px;  /* alutura */
   height: 164px;  /* largura */
   float: right;  /* flutuar a direita */
+}
+
+/* Area de Conteudo */
+
+#area-principal {
+  /* background: red; */
+  float: left;
+  width: 50%;
+}
+
+#area-lateral {
+  /* background: blue; */
+  float: right;
+  width: 50%;
+}
+
+.conteudo {
+  margin: 0 auto;
+  width: 90%;
+}
+
+#rodape {
+  clear: both;
 }
