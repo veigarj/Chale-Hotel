@@ -12,3 +12,5 @@ menu lateral
 conteúdo com duas áreas
 - principal
 - lateral com ação hover e alteração de ponteiro do mouse
+
+<img src="Chale_Hotel.png">
