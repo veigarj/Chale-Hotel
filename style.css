@@ -39,7 +39,7 @@ body {  /* config principal - font,fundo e margem  */
   position: absolute;
   top: 15px;
   left: 15px;
-  z-index: 3;
+  z-index: 3; /* coloca a ordem de sobrepozicao */
 
   /* confg Logo  */
   /* background: url(/imagens/logo.png) no-repeat; */
@@ -129,12 +129,17 @@ ul#navegacao a:hover {
   /* background: red; */
   float: left;
   width: 50%;
+  background: url(/imagens/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
 }
 
 #area-lateral {
   /* background: blue; */
   float: right;
   width: 50%;
+  background: url(/imagens/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
+
 }
 
 .conteudo {
@@ -144,4 +149,52 @@ ul#navegacao a:hover {
 
 #rodape {
   clear: both;
+  padding: 16px;
+  background: #fff url(/imagens/bg-rodape.png) repeat-x top;
+  color: #7d7640;
+
+}
+
+/* Formatação de texto */
+a {
+text-decoration: none;
+}
+
+h2 {
+  color: #7d7640;
+  font-size: 1.1em;
+  padding: 5px 0px;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+/* formatção da area lateral */
+#beneficios li {
+  padding: 8px;   /* espeçamento */
+  border-bottom: 1px solid #f3efcb;  /* cor de borda inferior */
+  height: 6em;  /* altura */
+}
+
+#beneficios li a img {
+  float: left;
+  margin-right: 8px;
+}
+
+#beneficios li a p{
+  font-size: 0.8em;
+}
+
+#beneficios li a h3 {
+  font-size: 1em;
+  color: #615b2d;
+  padding: 5px 0px;  /* espaçamento inferior e superior 5px */
+  background: url(/imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover {  /* troca a cor hover e o ponteiro do mouser */
+  background: #f6f3d6;
+  cursor: pointer;
 }
