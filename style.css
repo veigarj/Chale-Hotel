@@ -1,0 +1,121 @@
+* { 
+  zera 
+  margin: 0;
+  padding: 0;
+}
+
+body {  /* config principal - font,fundo e margem  */
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff url(../Chale-Hotel/imagens/bg.png);
+  margin: 15px;
+}
+
+#container {
+  background: #ede9cc;
+  margin: 0 auto;  /* centralizar objeto  */
+
+  /* estabelece o tamanho maximo e minimo  */
+  min-width: 740px;
+  max-width: 1180px;
+}
+
+#topo {
+  position: relative;
+  background: #dbcd87;
+  height: 15.4em;
+  min-height: 250px;
+}
+
+#area-logo {
+  position: absolute;
+  background: url(/imagens/topo-imagem-principal.png) no-repeat;
+  width: 100%;   /* largura */
+  height: 250px;  /* altra */
+  top: 0;
+  left: 0;
+  z-index: 1;  /* coloca a ordem de sobrepozicao */
+}
+
+.logo a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 3;
+
+  /* confg Logo  */
+  /* background: url(/imagens/logo.png) no-repeat; */
+  height: 151px;  /* largura */
+  height: 66px;  /* altura */
+
+  /* tirar o texto da tela */
+  text-indent:;  
+
+}
+
+#area-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(/imagens/topo-imagem-lateral.png) no-repeat;
+  width: 450px;
+  height: 250px;
+  z-index: 2; /* coloca a ordem de sobrepozicao */
+
+}
+
+#conteudo-menu {
+  margin-left: 90px;  /* margem esquerda  */
+  margin-right: 15px;  /* margen direita  */
+  padding-top: 15px;  /* espaco do topo  */
+}
+
+#menu-locais {
+  border-bottom: 1px solid #b5ab56;
+  border-top: 1px solid #b5ab56;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 0.7em;
+  color: #8b8448;
+}
+
+#menu-locais .locais {
+  float: left;
+  line-height: 2.1em;
+}
+
+a.reserva {  /* configuracao do botao reservar */
+  text-transform: uppercase;  /* deixa as letras e maiusculas */
+  background: #a29750;
+  color: #fff5b0;
+  padding: 5px 10px;  /* 5px superior e inferior, 10px lateraias */
+  float: right;    /* flutuar a esquerda */
+  text-decoration: none;
+}
+
+/* barra vertical  */
+#menu {
+  margin-top: 15px;  /* espaço do topo  */
+}
+
+ul {
+  list-style: none;  /* remove marcadores */
+}
+
+ul#navegacao {
+  float: left;
+}
+
+ul#navegacao a {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 5px;
+  color: #6e672c;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.depoimento {
+  width: 226px;  /* alutura */
+  height: 164px;  /* largura */
+  float: right;  /* flutuar a direita */
+}
